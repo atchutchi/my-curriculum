@@ -22,6 +22,22 @@
     background-color: #525252;
 }
 
+/*--------------------------------------------Special paddins/margins/text */
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
 /*--------------------------------------------Heading*/
 
 header {
@@ -33,7 +49,7 @@ header {
 }
 
 .logo {
-    background: url("../images/atchu.jpeg");
+    background: url("../images/foto.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,6 +82,10 @@ header {
 
 .menucontainer{
     font-size: 0;
+}
+
+#nav {
+    margin: 0%;
 }
 
 #nav li{
@@ -102,4 +122,18 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/*--------------------------------------------hover.css*/
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+/*--------------------------------------------footer*/
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
